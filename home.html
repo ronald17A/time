@@ -1,0 +1,214 @@
+<html><head>
+<style>
+body  {
+    background-image: url("https://s17.postimg.org/vpthlsrgv/ombreee.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</style>
+</head>
+<body>
+
+<p1 style="text-align:center;font-family:Times New Roman;font-size:10vw;color:white;margin-left:auto;margin-right:auto;display:block;margin-top:10vw;margin-bottom:0vw">Home</p1>
+
+<img src="http://www.emoji.co.uk/files/emoji-one/symbols-emoji-one/2224-large-red-circle.png" style = "width:2.5vw;height:2.5vw;margin-left:34.5vw;margin-top:2vw">
+
+<style>
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+}
+
+</style>
+</head>
+<body>
+
+<button style="color:white;background:#99ccff;border-radius:1vw;width:18vw;height:auto;text-align:center;font-family:Arial;font-size:3vw;margin-left:18vw;margin-right:0vw;display:block;margin-top:-1.7vw;margin-bottom:0vw" onclick="myFunction()">t a s k</button>
+</body>
+
+<body>
+<button style="color:white;background:#99ccff;border-radius:1vw;width:18vw;height:auto;text-align:center;font-family:Arial;font-size:3vw;margin-left:63vw;margin-right:0vw;display:block;margin-top:-4vw;margin-bottom:2vw" onclick="myFunction2()">p r o f i l e</button>
+</body>
+
+<div id="myDIV" style="display:none;margin-left:20%;">
+
+<style>
+/* The container */
+.container {
+
+	left:-11vw;
+    width: 34vw;
+    top: -1vw;
+    display: block;
+    position: relative;
+    padding-left: 7vw;
+    margin-bottom: -3vw;
+    cursor: pointer;
+    font-size: 3vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: Arial;
+    margin-top: 5vw;
+    color:grey;
+
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+	position: absolute;
+    top: 0vw;
+    left: 1vw;
+    height: 3vw;
+    width: 3vw;
+    border-style:solid;
+    border-width: .3vw;
+    border-color: white;
+    background-color: none;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #e6e6e6;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+
+    left:.7vw;
+    top: -.2vw;
+    width: 1vw;
+    height: 2vw;
+    border: solid red;
+    border-width: 0 .7vw .7vw 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+</style>
+<body>
+
+<label class="container">have a healthier lunch
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">organise your workspace
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">have a walk in the park
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+
+</body>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+}
+</script>
+
+<div id="myDIV2" style="display:none;margin-left:30%;">
+
+<style>
+input[type=text], select {
+    width: 25vw;
+    height: auto;
+    text-align: center;
+    font-size: 3vw;
+    margin-top: .1vw;
+    margin-bottom: 1vw;
+    margin-left: 30vw;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+</style>
+
+<div>
+  	<font face = "Times New Roman">
+    <input type="text" id="user" name="username" placeholder="username" size = "30vw">
+    <font face = "Times New Roman">
+
+</div>
+
+<div>
+  	<font face = "Times New Roman">
+    <input type="text" id="email" name="email" placeholder="email" size = "30vw">
+    <font face = "Times New Roman">
+
+</div>
+
+<div>
+  	<font face = "Times New Roman">
+    <input type="text" id="mobile number" name="mobile number" placeholder="mobile number" size = "30vw">
+    <font face = "Times New Roman">
+
+</div>
+
+<script>
+function myFunction2() {
+    var x = document.getElementById("myDIV2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+}
+</script>
+
+</body>
+</html>
